@@ -1,0 +1,20 @@
+{
+  "name": "leetcode_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/hello_world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnikander/leetcode_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnikander/leetcode_js/issues"
+  },
+  "homepage": "https://github.com/mnikander/leetcode_js#readme"
+}
