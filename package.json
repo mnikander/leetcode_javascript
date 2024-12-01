@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/hello_world.js",
   "scripts": {
-    "test": "node test/*.js"
+    "hello": "node src/hello_world.js",
+    "test":  "node test/*.js"
   },
   "repository": {
     "type": "git",

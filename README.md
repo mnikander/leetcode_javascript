@@ -12,8 +12,8 @@ sudo apt install nodejs npm
 ```
 
 ```bash
-git clone ... # this repo
+git clone ...  # this repo
 cd leetcode_js
-node hello_world.js  # run the hello_world example
-npm test             # execute unit tests
+npm run hello  # run the hello_world example
+npm test       # execute unit tests
 ```
