@@ -1,7 +1,7 @@
 # Learning Javascript
 
 A collection of leetcode solutions in JavaScript.
-These were done to learn the very basics of the language.
+The emphasis is NOT on efficient solutions, but on learning the basics of JavaScript.
 The code was run locally using nodejs.
 
 ## Getting started
