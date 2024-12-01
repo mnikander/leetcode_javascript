@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/hello_world.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/*.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/mnikander/leetcode_js/issues"
   },
-  "homepage": "https://github.com/mnikander/leetcode_js#readme"
+  "homepage": "https://github.com/mnikander/leetcode_js#readme",
+  "dependencies": {
+    "node-assert": "^0.0.1",
+    "node-test": "^1.4.6"
+  }
 }
