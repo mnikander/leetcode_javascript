@@ -4,6 +4,10 @@ match = (leftChar, rightChar) => {
         || (leftChar == '{' && rightChar == '}');
 }
 
+isOpening = (parenthesis) => {
+    return parenthesis == '(' || parenthesis == '[' || parenthesis == '{';
+}
+
 /**
  * @param {string} s
  * @return {boolean}
@@ -13,19 +17,17 @@ var isValid = function(s) {
     
     for (let i = 0; i < s.length; i++)
     {
-        let current = s.charAt(i);
-        if(current == '(' || current == '[' || current == '{') {
-            stack.push(current);
+        let parenthesis = s.charAt(i);
+        if(isOpening(parenthesis)) {
+            stack.push(parenthesis);
+        }
+        else if (stack.length == 0) {
+            return false;
         }
         else {
-            if (stack.length == 0) {
+            let predecessor = stack.pop();
+            if(!match(predecessor, parenthesis)) {
                 return false;
-            }
-            else {
-                let predecessor = stack.pop();
-                if(!match(predecessor, current)) {
-                    return false;
-                }
             }
         }
     }
