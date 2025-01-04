@@ -17,3 +17,8 @@ cd leetcode_js
 npm run hello  # run the hello_world example
 npm test       # execute unit tests
 ```
+
+## Learning resources
+- More info on [unit testing in nodejs](https://nodejs.org/api/test.html)
+- [W3 schools JavaScript tutorial](https://www.w3schools.com/js/default.asp)
+- [W3 schools JavaScript language reference](https://www.w3schools.com/jsref/default.asp)
