@@ -2,6 +2,10 @@ const test = require('node:test');
 const assert = require('node:assert');
 const { isValid } = require('../src/0020-valid-parentheses')
 
+test('valid parenthesis, empty', (t) => {
+    assert.strictEqual(isValid(""), true);
+});
+
 test('valid parenthesis, simple parenthesis', (t) => {
     assert.strictEqual(isValid("()"), true);
 });
