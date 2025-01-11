@@ -1,5 +1,5 @@
 {
-  "name": "leetcode_js",
+  "name": "leetcode_javascript",
   "version": "1.0.0",
   "description": "",
   "main": "src/hello_world.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mnikander/leetcode_js.git"
+    "url": "git+https://github.com/mnikander/leetcode_javascript.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mnikander/leetcode_js/issues"
+    "url": "https://github.com/mnikander/leetcode_javascript/issues"
   },
-  "homepage": "https://github.com/mnikander/leetcode_js#readme",
+  "homepage": "https://github.com/mnikander/leetcode_javascript#readme",
   "dependencies": {
     "node-assert": "^0.0.1",
     "node-test": "^1.4.6"
