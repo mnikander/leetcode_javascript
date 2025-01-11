@@ -1,4 +1,4 @@
-match = (leftChar, rightChar) => {
+isMatch = (leftChar, rightChar) => {
     return (leftChar == '(' && rightChar == ')')
         || (leftChar == '[' && rightChar == ']')
         || (leftChar == '{' && rightChar == '}');
@@ -26,7 +26,7 @@ var isValid = function(s) {
         }
         else {
             let predecessor = stack.pop();
-            if(!match(predecessor, parenthesis)) {
+            if(!isMatch(predecessor, parenthesis)) {
                 return false;
             }
         }
